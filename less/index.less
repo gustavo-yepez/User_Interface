@@ -7,6 +7,40 @@
 @import 'footer.less';
 @import 'home-page.less';
 
-body{
+.nav-flex-container{ 
+    display:flex;
+    padding-bottom: 80px;
+    padding-top: 110px;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(83, 83, 199);
+
+}
+@media(max-width: 500px) {
+    .nav-flex-container {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 80px;
+      padding-top: 110px;
+      
     
+    }
+
+  }
+
+
+a{
+    text-decoration: none;
+    color: rgb(83, 83, 199);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
 }
