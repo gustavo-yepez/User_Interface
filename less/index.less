@@ -6,7 +6,9 @@
 @import 'navigation.less';
 @import 'footer.less';
 @import 'home-page.less';
-
+body{
+  background: red;
+}
 .nav-flex-container{ 
     display:flex;
     padding-bottom: 80px;
@@ -20,8 +22,76 @@
     font-size: 20px;
     color: rgb(83, 83, 199);
 
+    
+
 }
 
+.middle{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+
+
+  .middle-right{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+  }
+}
+
+.grid{
+  display: flex;
+  max-width: 75px;
+  padding-right:1% ;
+  padding-left:1% ;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  justify-content:space-between ;
+}
+
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h3{
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
+h2{
+    
+    align-items: baseline;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+footer{
+  display:flex;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+//mobile//
 .dropbtn{
     display: none;
 

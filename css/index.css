@@ -141,7 +141,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Timesnewroman';
 }
 h1 {
   font-size: 4rem;
@@ -149,10 +149,8 @@ h1 {
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
-}
-h4 {
-  font-size: 2.5rem;
-  padding-bottom: 10px;
+  align-items: center;
+  margin: 400px;
 }
 p {
   line-height: 1.5;
@@ -223,60 +221,14 @@ header p {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home .content-section {
-  margin: 30px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.home .content-section .text-content {
-  width: 48%;
-  padding-right: 1%;
-}
-.home .content-section .img-content {
-  width: 48%;
-  padding-left: 1%;
-}
-.home .content-section .img-content img {
-  border-radius: 10px;
-}
-.home .inverse-content {
-  padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
-}
-.home .inverse-content .text-content {
-  padding-left: 1%;
-  padding-right: 0;
-}
-.home .inverse-content .img-content {
-  padding-right: 1%;
-  padding-left: 0;
-}
-.home .content-destination {
-  width: 75%;
-  margin: 0 auto 30px;
-}
-.home .content-destination img {
-  border-radius: 10px;
-}
-.home .content-pick {
-  padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
-  display: flex;
-  justify-content: space-between;
-}
-.home .content-pick .destination {
-  width: 30%;
-  margin-bottom: 30px;
-}
 .btn {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 2em;
-  text-align: center;
-  background-color: teal;
+  border: none;
+  font-size: 1.6rem;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-bottom: 50%;
 }
 .top,
 .welcome {
@@ -297,6 +249,57 @@ header p {
   text-decoration: none;
   font-size: 20px;
   color: #5353c7;
+}
+.middle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.middle .middle-right {
+  width: 48%;
+  padding: 0 1%;
+  padding-bottom: 20px;
+}
+.grid {
+  display: flex;
+  max-width: 75px;
+  padding-right: 1% ;
+  padding-left: 1% ;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  justify-content: space-between;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h3 {
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
+h2 {
+  align-items: baseline;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  width: 50%;
+  text-align: center;
+}
+footer {
+  padding-bottom: 80px;
+  padding-top: 110px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 20px;
 }
 .dropbtn {
   display: none;
