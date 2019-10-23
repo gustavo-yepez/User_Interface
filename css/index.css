@@ -134,7 +134,12 @@ html {
 }
 html,
 body {
+  background: red;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(rgba(255, 213, 0, 0.7), rgba(255, 213, 0, 0.7)), url(..//alexander-schimmeck-ineC_oi7NHs-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 h1,
 h2,
@@ -183,6 +188,13 @@ img {
 }
 .welcome {
   margin: 2% 0;
+}
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(rgba(255, 213, 0, 0.7), rgba(255, 213, 0, 0.7)), url(..//alexander-schimmeck-ineC_oi7NHs-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 .nav-flex-container {
   padding-bottom: 80px;
@@ -251,22 +263,19 @@ h2 {
   text-align: center;
 }
 button {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
   border: none;
   font-size: 2rem;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-top: 2vh;
   padding-bottom: 2vh;
   margin-bottom: 50%;
   cursor: pointer;
   background: grey;
   transition: all 500ms ease-in-out;
-}
-button:hover {
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 footer {
   padding-bottom: 80px;
