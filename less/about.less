@@ -23,7 +23,6 @@ html, body {
     text-decoration: none;
     font-size: 20px;
     color: rgb(83, 83, 199);
-    text-decoration: none;
 
 }
 
@@ -103,4 +102,76 @@ footer{
 
 img{
     width: 200px;
+}
+a{ 
+    text-decoration: none;
+    color: rgb(83, 83, 199);
+}
+
+
+//mobile
+
+@media(max-width: 500px) {
+    *{
+        text-align: center;
+        background: red;
+    }
+    .desktop-container{
+        justify-content: space-between;
+
+        .middle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    footer{
+      margin-left: 130px;
+    }
+    h4{
+      display: inline;
+      font-size: 50px;
+      padding-right: 200px;
+      padding-top: 20px;
+    }
+
+    .middle{
+      display: flex;
+      flex-direction: column-reverse;
+      height: 95%;
+    }
+
+}
+
+@media(max-width: 500px) {
+    footer{
+        margin-left: 150px;
+        width: 600px;
+        font-size: 25px;
+    }
+    .desktop-container {
+    margin: 50px 50px;
+      width: 750px;
+      margin-bottom: 0px;
+      margin-top: 10%;
+      margin-right: -60;
+      }
+
+    h2{
+        width: 800px;
+        margin-bottom: 0px;
+        margin-top: -10%;
+        margin-right: -80;
+        margin-left: 50px;
+    }
+
+    .middle{
+        margin-bottom: 0px;
+        margin-top: 1%;
+        margin-right: -80;
+        margin-left: 200px;
+    }
 }

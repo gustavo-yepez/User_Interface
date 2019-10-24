@@ -310,7 +310,7 @@ footer {
   .middle {
     display: flex;
     flex-direction: column-reverse;
-    height: 95%;
+    height: 75%;
   }
   .middle .middle-right {
     width: 100%;
@@ -344,7 +344,11 @@ footer {
     width: 450px;
   }
   .desktop-container {
-    display: none;
+    margin: 50px 50px;
+  width: 560px;
+  margin-bottom: 0px;
+  margin-top: -10%;
+  margin-right: -60;
   }
 }
 a {

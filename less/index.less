@@ -168,10 +168,10 @@ footer{
     .middle{
       display: flex;
       flex-direction: column-reverse;
-      height: 95%;
+      height: 75%;
 
       .middle-right{
-        width: 100%;
+        width: 100% 550px;
         display: flex;
         text-align: center;
         padding-left: 10vw;
@@ -204,13 +204,14 @@ footer{
     h3{
       padding-left: 60px;
       width: 450px;
+      padding-top: 20px;
     }
     p{
      
     }
 
     .desktop-container{
-      display: none;
+      display: flex;
     }
     
   }
@@ -225,3 +226,11 @@ footer{
     justify-content: space-between;
     max-width: 400px;
 }
+@media (max-width: 500px)
+  {
+    .desktop-container{
+      .nav-flex-container{
+        display: inline;
+      }
+    }
+  }
