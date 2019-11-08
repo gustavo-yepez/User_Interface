@@ -1,0 +1,177 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(rgba(255, 213, 0,0.7), rgba(255, 213, 0,0.7)), url(..//alexander-schimmeck-ineC_oi7NHs-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dropbtn{
+    display: none;
+}
+.desktop-container .nav-flex-container{
+    text-decoration: none;
+}
+
+.nav-flex-container{ 
+    display:flex;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(83, 83, 199);
+
+}
+
+p{
+    text-indent:1em;  
+    text-align:justify;
+    padding-top: 30px;
+    
+  }
+  
+  .middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    flex-flow: row wrap;
+    margin: 50px 450px;
+    width: 500px;
+    margin-bottom: 0px;
+    margin-top: 1%;
+
+    .Allie .Screenshot img{
+        width: 200px;
+    }
+
+
+    
+  }
+  
+  p{
+    line-height: 1.4;
+     
+  }
+  h1{
+      text-align: center;
+  }
+  h4{
+    display: none;
+  }
+  h3{
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+  }
+  h2{
+      
+      align-items: baseline;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      width: 50%;
+      text-align: center;
+  }
+  
+  
+footer{
+    display:flex;
+    padding-bottom: 40px;
+    padding-top: 1px;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.Allie .Screenshot{
+    width: 200px;
+}
+
+img{
+    width: 200px;
+}
+a{ 
+    text-decoration: none;
+    color: rgb(83, 83, 199);
+}
+
+
+//mobile
+
+@media(max-width: 500px) {
+    *{
+        text-align: center;
+        background: red;
+    }
+    .desktop-container{
+        justify-content: space-between;
+
+        .middle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    footer{
+      margin-left: 130px;
+    }
+    h4{
+      display: inline;
+      font-size: 50px;
+      padding-right: 200px;
+      padding-top: 20px;
+    }
+
+    .middle{
+      display: flex;
+      flex-direction: column-reverse;
+      height: 95%;
+    }
+
+}
+
+@media(max-width: 500px) {
+    footer{
+        margin-left: 150px;
+        width: 600px;
+        font-size: 25px;
+    }
+    .desktop-container {
+    margin: 50px 50px;
+      width: 750px;
+      margin-bottom: 0px;
+      margin-top: 10%;
+      margin-right: -60;
+      }
+
+    h2{
+        width: 800px;
+        margin-bottom: 0px;
+        margin-top: -10%;
+        margin-right: -80;
+        margin-left: 50px;
+    }
+
+    .middle{
+        margin-bottom: 0px;
+        margin-top: 1%;
+        margin-right: -80;
+        margin-left: 200px;
+    }
+}
